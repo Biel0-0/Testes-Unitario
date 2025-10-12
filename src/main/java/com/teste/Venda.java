@@ -1,4 +1,4 @@
-package org.example;
+package com.teste;
 
 public class Venda {
     private Produto produto;
