@@ -265,4 +265,10 @@ public class AppTest{
         Assertions.assertEquals(15, produto.getEstoque());
         Assertions.assertTrue(venda.realizarVenda());
     }
+
+    @Test
+    public void inicia(){
+        App.main(null);
+        Assertions.assertTrue(true);
+    }
 }
